@@ -15,3 +15,14 @@ variables:
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
+{ 
+ "name": "Example Application", 
+ "version": "1.0.0", 
+ "description": "", 
+ "main": "index.js", 
+ "scripts": { 
+    "build": "echo 'build script executed'" 
+ }, 
+ "author": "", 
+ "license": "" 
+} 
